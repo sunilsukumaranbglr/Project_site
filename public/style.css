@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+    height: 80vh;
+
+}
+header {
+    height: 100px;
+
+}
+ul {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    margin-right: 10px;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: underline;
+}
+img {
+    width: 100%;
+    height: 80vh;
+    background-size:contain;
+}
